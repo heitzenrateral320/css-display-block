@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image-gallery img {
+      width: 200px;
+      height: 100%;
+      margin: 10px;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-gallery img:hover {
+      opacity: 0.8;
+    }
+
+    figure {
+        margin-bottom: 2.5rem;
+    }
+
+    figcaption {
+        font-style: italic;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="image-gallery">
+        <figure>
+            <img src="desert-nm1.jpg" alt="Phrase describing Image 1">
+            <figcaption>Caption 1</figcaption>
+        </figure>
+
+        <figure>
+            <img src="desert-nm2.jpg" alt="Phrase describing Image 2">
+            <figcaption>Caption 2</figcaption>
+        </figure>
+
+
+        <figure>
+            <img src="desert-nm3a.jpg" alt="Phrase describing Image 3">
+            <figcaption>Caption 3</figcaption>
+        </figure>
+
+        <figure>
+            <img src="desert-nm4.jpg" alt="Phrase describing Image 4">
+            <figcaption>Caption 4</figcaption>
+        </figure>
+
+    </div>
+    
+</body>
+</html>
